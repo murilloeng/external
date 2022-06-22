@@ -14,7 +14,7 @@ platform = x64
 
 #flags
 flags_linker = /nologo
-flags_compiler = /nologo /c /module:$(directory)\ /object:$(directory)\ 
+flags_compiler = /nologo /c /Zl /module:$(directory)\ /object:$(directory)\ 
 
 #directory
 directory = lib\$(platform)\$(mode)
