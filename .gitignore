@@ -6,3 +6,7 @@
 !*.dll
 
 !.gitignore
+
+fortran/**/*.lib
+
+!Makefile.win
