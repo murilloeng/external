@@ -4,6 +4,7 @@
 !*.f90
 !*.lib
 !*.dll
+!*.json
 
 !.gitignore
 
