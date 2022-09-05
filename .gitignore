@@ -10,4 +10,4 @@
 
 fortran/**/*.lib
 
-!Makefile.win
+!Makefile.mk
