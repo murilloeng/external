@@ -5,6 +5,7 @@
 !*.f90
 !*.lib
 !*.dll
+!*.pdb
 !*.json
 
 !.gitignore
