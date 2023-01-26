@@ -1,3 +1,5 @@
+#include <string>
+
 extern "C"
 {
   void cdgqf ( int nt, int kind, double alpha, double beta, double t[], 
@@ -116,7 +118,7 @@ extern "C"
   double r8vec_dot_product ( int n, double a1[], double a2[] );
   void r8vec_linspace ( int n, double a_first, double a_last, double a[] );
   double *r8vec_linspace_new ( int n, double a_first, double a_last );
-  void r8vec_print ( int n, double a[], string title );
+  void r8vec_print ( int n, double a[], std::string title );
   void r8vec_reverse ( int n, double x[] );
   void radau_compute ( int n, double x[], double w[] );
   void radau_set ( int order, double xtab[], double weight[] );
