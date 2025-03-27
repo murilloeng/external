@@ -5,6 +5,7 @@
 !*.cpp
 !*.exp
 !*.f90
+!*.inl
 !*.lib
 !*.dll
 !*.pdb
